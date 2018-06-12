@@ -16,7 +16,11 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1.The Pipeline
+My pipelines consiste of five steps that are as follows:
+
+#### (i) Converting the input image to HLS from RGB: 
+The <i>toHLS()</i> function converts the image to HLS scale and masks the image with yellow and white filters. The HLS domain takes care of the variation in the lighting conditions.  
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
