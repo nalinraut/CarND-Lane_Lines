@@ -90,16 +90,13 @@ The image with extrpolated lines goes on the original image and forms the final 
 ![Final Image][image8]
 
 
-### 2. Identify potential shortcomings with your current pipeline
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+### 2. Potential shortcomings of the pipeline
+Potential shortcomings of the pipeline are as follows:
+* The first shortcoming is setting the values of vertices which seems a little brute-force approach. Apart from this, there are a lot other parameters that need to be tuned.
+* There is a need to remove intersections of the lane lines in case of cross roads.
 
 
 ### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+Possible improvements to to the pipeline are:
+*  The curve with more than one degree can be fit to the points for curvy roads.
+* A function to remove intersections of the two lane lines can improve the results.
