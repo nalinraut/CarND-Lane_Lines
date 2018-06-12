@@ -29,7 +29,11 @@ My pipelines consists of the following steps:
 
 #### (i) Converting the input image to HLS from RGB: 
 The <i>toHLS()</i> function converts the image to HLS scale and masks the image with yellow and white filters. The HLS       domain takes care of the variation in the lighting conditions.
+
+<center>
 ![HLS Image][image1]
+</center>
+
 #### (ii) Converting the HSL masked image to grayscale:
 The image is further converted into an grayscale image.
 ![Grayscale][image2]
